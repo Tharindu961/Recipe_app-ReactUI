@@ -11,8 +11,9 @@ const App = () => {
 
   return(
     <div className="App">
-      <form>
-        <input type="text" />
+      <form className="search-form">
+        <input className="search-bar" type="text"/>
+        <button type="submit">Search</button>
       </form>
     </div>
   )
