@@ -4,7 +4,8 @@ import './App.css';
 
 const App = () => {
 
-  const APP_ID = '3f8a762b';
+  const APP_ID = "3f8a762b";
+  const APP_KEY = "e44e743e953d239bd0a366e3d7515337	";
 
   return(
     <div className="App">
