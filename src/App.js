@@ -1,5 +1,5 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useEffect, useState } from 'react';
+
 import './App.css';
 
 const App = () => {
@@ -8,6 +8,10 @@ const App = () => {
   const APP_KEY = "e44e743e953d239bd0a366e3d7515337	";
 
   const exampleReq = `https://api.edamam.com/search?q=chicken&app_id=${APP_ID}&app_key=${APP_KEY}`;
+
+  useEffect(() => {
+    
+  })
 
   return(
     <div className="App">
