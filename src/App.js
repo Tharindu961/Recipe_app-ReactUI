@@ -19,12 +19,9 @@ const App = () => {
     <div className="App">
       <form className="search-form">
         <input className="search-bar" type="text"/>
-        <button
-        onClick = {() => setCounter(counter + 1)} 
-        className="search-button" 
-        type="submit">
-           {counter}
+        <button className="search-button"  type="submit">
         </button>
+  <h1 onClick = {() => setCounter(counter + 1)}>{button}</h1>
       </form>
     </div>
   )
