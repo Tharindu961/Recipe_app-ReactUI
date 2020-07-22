@@ -7,8 +7,6 @@ const App = () => {
   const APP_ID = "3f8a762b";
   const APP_KEY = "e44e743e953d239bd0a366e3d7515337	";
 
-  const exampleReq = `https://api.edamam.com/search?q=chicken&app_id=${APP_ID}&app_key=${APP_KEY}`;
-
   const [counter, setCounter] = useState(0);
   
   useEffect(() => {
@@ -16,7 +14,7 @@ const App = () => {
   }, []);
 
   const getRecips = async () => {
-    const response = await fetch()
+    const response = await fetch(`https://api.edamam.com/search?q=chicken&app_id=${APP_ID}&app_key=${APP_KEY}`);
   }
 
   return(
