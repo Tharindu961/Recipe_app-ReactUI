@@ -12,8 +12,12 @@ const App = () => {
   const [counter, setCounter] = useState(0);
   
   useEffect(() => {
-    console.log('Effect has been run');
-  });
+    
+  }, []);
+
+  const getRecips = async () => {
+    const response = await fetch()
+  }
 
   return(
     <div className="App">
@@ -21,7 +25,7 @@ const App = () => {
         <input className="search-bar" type="text"/>
         <button className="search-button"  type="submit">Search
         </button>
-  <h1 onClick = {() => setCounter(counter + 1)}>{counter}</h1>
+  
       </form>
     </div>
   )
