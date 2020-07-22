@@ -7,7 +7,8 @@ const App = () => {
   const APP_ID = "3f8a762b";
   const APP_KEY = "e44e743e953d239bd0a366e3d7515337	";
 
-  const [counter, setCounter] = useState(0);
+  const [recipes, setRecipes] = useState([]);
+
   
   useEffect(() => {
     getRecips();
