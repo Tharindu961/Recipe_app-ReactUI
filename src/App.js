@@ -9,9 +9,11 @@ const App = () => {
 
   const exampleReq = `https://api.edamam.com/search?q=chicken&app_id=${APP_ID}&app_key=${APP_KEY}`;
 
+  const [counter, setCounter] = useState[0];
+  
   useEffect(() => {
-    
-  })
+    console.log('Effect has been run');
+  });
 
   return(
     <div className="App">
