@@ -10,14 +10,14 @@ const App = () => {
   const [counter, setCounter] = useState(0);
   
   useEffect(() => {
-    
+    getRecips();
   }, []);
 
   const getRecips = async () => {
     const response = await fetch(`https://api.edamam.com/search?q=chicken&app_id=${APP_ID}&app_key=${APP_KEY}`);
-    const data = response.json();
-    console.log(data);
-  }
+    const data = await response.json();
+    console.log(data.hits);
+  };
 
   return(
     <div className="App">
