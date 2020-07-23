@@ -28,8 +28,8 @@ const App = () => {
         </button>
   
       </form>
-      {recipes.map(recipes => (
-        <Recipe />
+      {recipes.map(recipe => (
+        <Recipe title={recipe.recipe}/>
       ))}
     </div>
   )
