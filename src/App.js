@@ -28,6 +28,9 @@ const App = () => {
         </button>
   
       </form>
+      {recipes.map(recipes => (
+        
+      ))}
     </div>
   )
 }
