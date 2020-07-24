@@ -24,7 +24,7 @@ const App = () => {
   return(
     <div className="App">
       <form className="search-form">
-        <input className="search-bar" type="text"/>
+        <input className="search-bar" type="text" value={search}/>
         <button className="search-button"  type="submit">Search
         </button>
   
