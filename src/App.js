@@ -8,6 +8,7 @@ const App = () => {
   const APP_KEY = "e44e743e953d239bd0a366e3d7515337	";
 
   const [recipes, setRecipes] = useState([]);
+  const [search, setSearch] = useState('');
 
   
   useEffect(() => {
