@@ -21,10 +21,12 @@ const App = () => {
     setRecipes(data.hits);
   };
 
+  
+
   return(
     <div className="App">
       <form className="search-form">
-        <input className="search-bar" type="text" value={search}/>
+        <input className="search-bar" type="text" value={search} onChange={}/>
         <button className="search-button"  type="submit">Search
         </button>
   
