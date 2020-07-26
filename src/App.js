@@ -23,6 +23,7 @@ const App = () => {
 
   const updateSearch = e => {
     setSearch(e.target.value);
+    console.log(search);
   }
 
   return(
