@@ -22,7 +22,7 @@ const App = () => {
   };
 
   const updateSearch = e => {
-    
+    setSearch(e.target.value);
   }
 
   return(
