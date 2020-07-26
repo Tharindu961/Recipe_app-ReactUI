@@ -21,7 +21,9 @@ const App = () => {
     setRecipes(data.hits);
   };
 
-  
+  const updateSearch = e => {
+    
+  }
 
   return(
     <div className="App">
