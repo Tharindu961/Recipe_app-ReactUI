@@ -27,6 +27,10 @@ const App = () => {
     console.log(search);
   }
 
+  const getSearch = e => {
+    
+  }
+
   return(
     <div className="App">
       <form className="search-form">
